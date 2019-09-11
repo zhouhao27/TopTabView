@@ -87,7 +87,7 @@ public struct TopTabView<Content>: View where Content: View {
                 }
           }
         }
-      }
+      }.padding(.top, 20)
       content
     }
   }
